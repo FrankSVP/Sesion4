@@ -12,6 +12,7 @@ package com.mycompany.sesion4;
 public class Sesion4 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Formularios.FormulariosGeneral objetoFormularioGeneral = new Formularios.FormulariosGeneral();
+      objetoFormularioGeneral.setVisible(true);
     }
 }
